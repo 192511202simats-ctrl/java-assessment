@@ -1,0 +1,295 @@
+============================================================================================
+Student #8 | YUVASRI S | 192511202HC
+============================================================================================
+[1] QID: 46
+Question : Write a program to read the numbers until -1 is encountered. Find the average of
+positive numbers and negative numbers entered by user.
+Sample Input:
+Enter -1 to exit
+Enter the number: 7
+Enter the number: -2
+Enter the number: 9
+Enter the number: -8
+Enter the number: -6
+Enter the number: -4
+Enter the number: 10
+Enter the number: -1
+Sample Output:
+The average of negative numbers is: -5.0
+The average of positive numbers is : 8.66666667
+Testcases: 1. -1,43, -87, -29, 1, -9
+2. 73, 7-6,2,10,28,-1
+3. -5, -9, -46,2,5,0
+4. 9, 11, -5, 6, 0,-1
+5. -1,-1,-1,-1,-1
+Program : import java.io.*;
+import java.util.*;
+class numbers
+{
+public static void main(String[]args)
+{
+int s1=0,s2=0,a1=0,a2=0,count=0,count2=0;
+int n[]=new int[5];
+for(i=0;i
+Input : 1,-2,3,-4,5
+Output : Error: numbers.java:20: error: ’else’ without ’if’
+else
+^
+1 error
+First Save: 2026-06-23 15:49:33
+Last Save : 2026-06-23 16:27:31
+----------------------------------------------------------------------------------------
+[2] QID: 39
+Question : Write a program using choice to check
+Case 1: Given string is palindrome or not
+Case 2: Given number is palindrome or not
+
+Submitted Answers Report
+Sample Input:
+Case = 1
+String = MADAM
+Sample Output:
+Palindrome
+Testcases: 1. MONEY
+2. 5678765
+3. MALAY12321ALAM
+4. MALAYALAM
+5. 1234.4321
+Program : import java.io.*;
+import java.util.*;
+class palindrome
+{
+public static void main(String args[])
+{
+int i=0,n=9,count=0;
+String a[]=new String[9];
+String r[]=new String[9];
+Scanner s=new Scanner(System.in);
+for(i=0;i
+Input : m
+a
+d
+a
+m
+Output : Exception in thread "main" java.util.NoSuchElementException: No line found
+at java.base/java.util.Scanner.nextLine(Scanner.java:1651)
+at palindrome.main(palindrome.java:13)
+First Save: 2026-06-23 15:28:17
+Last Save : 2026-06-23 16:09:06
+----------------------------------------------------------------------------------------
+[3] QID: 44
+Question : Write a program to calculate tax given the following conditions:
+a. If income is less than or equal to 1,50,000 then no tax
+b. If taxable income is 1,50,001 3,00,000 the charge 10% tax
+c. If taxable income is 3,00,001 5,00,000 the charge 20% tax
+d. If taxable income is above 5,00,001 then charge 30% tax
+Sample Input:
+Enter the income:200000
+Sample Output:
+Tax= 20000
+Testcases: Test cases:
+1. 400700
+2. 2789239
+3. 150000
+4. 00000
+5. -125486
+Program : import java.io.*;
+import java.util.*;
+class tax
+{
+public static void main(String[]args)
+
+Submitted Answers Report
+{
+int tax;
+Scanner sc=new Scanner(System.in);
+tax=sc.nextInt();
+{
+if(tax150000&&tax300000&&tax
+Input : 400700
+Output : tax:20035
+
+First Save: 2026-06-23 15:15:28
+Last Save : 2026-06-23 15:17:16
+----------------------------------------------------------------------------------------
+[4] QID: 13
+Question : Write a program for matrix multiplication?
+Sample Input:
+Mat1 =
+1 2
+5 3
+Mat2 =
+2 3
+4 1
+Sample Output:
+Mat Sum =
+10 5
+22 18
+
+Program : import java.io.*;
+import java.util.*;
+class Matrix
+{
+public static void main(String[]args)
+{int r,c,k;
+int a[][]=new int[2][2];
+int b[][]=new int[2][2];
+int x[][]=new int[2][2];
+Scanner s=new Scanner(System.in);
+for(r=0;r
+Input : 1 2
+5 3
+2 3
+4 1
+Output : Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 2 out
+of bounds for length 2
+at Matrix.main(Matrix.java:31)
+First Save: 2026-06-23 15:01:27
+Last Save : 2026-06-23 16:00:16============================================================================================
+Student #8 | YUVASRI S | 192511202HC
+============================================================================================
+[1] QID: 46
+Question : Write a program to read the numbers until -1 is encountered. Find the average of
+positive numbers and negative numbers entered by user.
+Sample Input:
+Enter -1 to exit
+Enter the number: 7
+Enter the number: -2
+Enter the number: 9
+Enter the number: -8
+Enter the number: -6
+Enter the number: -4
+Enter the number: 10
+Enter the number: -1
+Sample Output:
+The average of negative numbers is: -5.0
+The average of positive numbers is : 8.66666667
+Testcases: 1. -1,43, -87, -29, 1, -9
+2. 73, 7-6,2,10,28,-1
+3. -5, -9, -46,2,5,0
+4. 9, 11, -5, 6, 0,-1
+5. -1,-1,-1,-1,-1
+Program : import java.io.*;
+import java.util.*;
+class numbers
+{
+public static void main(String[]args)
+{
+int s1=0,s2=0,a1=0,a2=0,count=0,count2=0;
+int n[]=new int[5];
+for(i=0;i
+Input : 1,-2,3,-4,5
+Output : Error: numbers.java:20: error: ’else’ without ’if’
+else
+^
+1 error
+First Save: 2026-06-23 15:49:33
+Last Save : 2026-06-23 16:27:31
+----------------------------------------------------------------------------------------
+[2] QID: 39
+Question : Write a program using choice to check
+Case 1: Given string is palindrome or not
+Case 2: Given number is palindrome or not
+
+Submitted Answers Report
+Sample Input:
+Case = 1
+String = MADAM
+Sample Output:
+Palindrome
+Testcases: 1. MONEY
+2. 5678765
+3. MALAY12321ALAM
+4. MALAYALAM
+5. 1234.4321
+Program : import java.io.*;
+import java.util.*;
+class palindrome
+{
+public static void main(String args[])
+{
+int i=0,n=9,count=0;
+String a[]=new String[9];
+String r[]=new String[9];
+Scanner s=new Scanner(System.in);
+for(i=0;i
+Input : m
+a
+d
+a
+m
+Output : Exception in thread "main" java.util.NoSuchElementException: No line found
+at java.base/java.util.Scanner.nextLine(Scanner.java:1651)
+at palindrome.main(palindrome.java:13)
+First Save: 2026-06-23 15:28:17
+Last Save : 2026-06-23 16:09:06
+----------------------------------------------------------------------------------------
+[3] QID: 44
+Question : Write a program to calculate tax given the following conditions:
+a. If income is less than or equal to 1,50,000 then no tax
+b. If taxable income is 1,50,001 3,00,000 the charge 10% tax
+c. If taxable income is 3,00,001 5,00,000 the charge 20% tax
+d. If taxable income is above 5,00,001 then charge 30% tax
+Sample Input:
+Enter the income:200000
+Sample Output:
+Tax= 20000
+Testcases: Test cases:
+1. 400700
+2. 2789239
+3. 150000
+4. 00000
+5. -125486
+Program : import java.io.*;
+import java.util.*;
+class tax
+{
+public static void main(String[]args)
+
+Submitted Answers Report
+{
+int tax;
+Scanner sc=new Scanner(System.in);
+tax=sc.nextInt();
+{
+if(tax150000&&tax300000&&tax
+Input : 400700
+Output : tax:20035
+
+First Save: 2026-06-23 15:15:28
+Last Save : 2026-06-23 15:17:16
+----------------------------------------------------------------------------------------
+[4] QID: 13
+Question : Write a program for matrix multiplication?
+Sample Input:
+Mat1 =
+1 2
+5 3
+Mat2 =
+2 3
+4 1
+Sample Output:
+Mat Sum =
+10 5
+22 18
+
+Program : import java.io.*;
+import java.util.*;
+class Matrix
+{
+public static void main(String[]args)
+{int r,c,k;
+int a[][]=new int[2][2];
+int b[][]=new int[2][2];
+int x[][]=new int[2][2];
+Scanner s=new Scanner(System.in);
+for(r=0;r
+Input : 1 2
+5 3
+2 3
+4 1
+Output : Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: Index 2 out
+of bounds for length 2
+at Matrix.main(Matrix.java:31)
+First Save: 2026-06-23 15:01:27
+Last Save : 2026-06-23 16:00:16
