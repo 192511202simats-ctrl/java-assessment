@@ -1,0 +1,116 @@
+============================================================================================
+Student #8 | YUVASRI S | 192511202HC
+============================================================================================
+[1] QID: 8
+Question : A program tries to access a character from a string using an invalid index, causi
+ng an exception. Identify and correct the issue.
+public class Q7_StringIndex {
+public static void main(String[] args) {
+String str = "Java";
+System.out.println(str.charAt(3));
+}
+}
+
+Program : import java.io.*;
+import java.util.*;
+class StringIndex
+
+Submitted Answers Report
+{
+public static void main(String[]args)
+{
+String str="Java";
+System.out.println(str.charAt(3));
+}
+}
+Input : (no input)
+Output : a
+
+First Save: 2026-06-23 13:43:24
+Last Save : 2026-06-23 14:09:28
+----------------------------------------------------------------------------------------
+[2] QID: 29
+Question : . A substring operation attempts to access indices beyond the string length. Iden
+tify and correct the error.
+public class Q29_Substring {
+public static void main(String[] args) {
+String str = "Java";
+System.out.println(str.substring(2, 4));
+}
+}
+
+Program : import java.io.*;
+import java.util.*;
+class Substring
+{
+public static void main(String[]args)
+{
+String str="java";
+System.out.println(str.substring(2,4));
+}
+}
+Input : (no input)
+Output : va
+
+First Save: 2026-06-23 13:39:33
+Last Save : 2026-06-23 14:09:26
+----------------------------------------------------------------------------------------
+[3] QID: 22
+Question : Two Integer objects are compared using the wrong method, leading to incorrect res
+ults. Identify and fix the comparison.
+public class Q22_IntegerCompare {
+public static void main(String[] args) {
+Integer a = 1000;
+Integer b = 1000;
+if(a.equals(b)){
+System.out.println("Equal");
+}
+}
+}
+
+Submitted Answers Report
+Program : import java.io.*;
+import java.util.*;
+class IntegerCompare
+{
+public static void main(String[]args)
+{
+int a=1000;
+int b=1000;
+if(a==b)
+{
+System.out.println("Equal");
+}
+}
+}
+Input : (no input)
+Output : Equal
+
+First Save: 2026-06-23 13:34:56
+Last Save : 2026-06-23 14:09:24
+----------------------------------------------------------------------------------------
+[4] QID: 10
+Question : The program contains an error in array declaration and initialization. Identify t
+he syntax issue and correct it.
+import java.util.Arrays;
+public class Q9_ArrayDeclaration {
+public static void main(String[] args) {
+int arr[] = {1,2,3};
+System.out.println(Arrays.toString(arr));
+}
+}
+
+Program : import java.io.*;
+import java.util.*;
+class ArrayDeclaration
+{
+public static void main(String[]args)
+{int i;
+int a[]=new int[3];
+Scanner sc=new Scanner(System.in);
+for(i=0;i
+Input : 123
+Output : 123
+
+First Save: 2026-06-23 13:30:14
+Last Save : 2026-06-23 14:09:22
